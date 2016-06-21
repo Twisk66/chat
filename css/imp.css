@@ -1,0 +1,29 @@
+img:hover {
+	background-color: #FF0;
+}
+
+.active {
+	background-color: #F00;
+}
+
+.lvl {
+	float: left;
+	width: 43px;
+	margin: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+#floatTip {
+  position: absolute; /* Абсолютное позиционирование */
+  width: 250px; /* Ширина блока */
+  display: none; /* Прячем от показа */
+  border: 1px solid #000; /* Параметры рамки */
+  padding: 4px; /* Поля вокруг  текста */
+  font-family: sans-serif; /* Рубленый шрифт */
+  font-size: 9pt; /* Размер  шрифта */
+  color: #333; /* Цвет текста */
+  background: #ffc; /* Цвет фона */
+}
